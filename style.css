@@ -1,4 +1,12 @@
-.cabecalho {
+:root {
+    --cor-azul-escuro: #18A0FB;
+    --cor-branco-padrao: #ffff;
+}
+
+
+
+.cabecalho{}
+.cabecalho__principal {
 display: flex;
 justify-content: center;
 }
@@ -11,3 +19,31 @@ justify-content: center;
         font-weight: 100;
         margin-left: 10px;
     }
+    .botoes {
+    }
+        .botoes__opcoes {
+            display: flex;
+            justify-content: space-around;
+            list-style:none;
+        }
+            .botoes__opcoes--opcao {
+            }
+                .opcao__texto {
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                }
+                .opcao__entrar {
+                    background-color:var(--cor-branco-padrao);
+                    border:10px, var(--cor-azul-escuro);
+                    color: var(--cor-azul-escuro);
+                    height: 20px;
+                    width: 110px;
+                }
+                .opcao__cadatrar {
+                    background-color: var(--cor-azul-escuro);
+                    border-radius: 5px ;
+                    color: var(--cor-branco-padrao);
+                    height: 20px;
+                    width: 110px;
+                }
