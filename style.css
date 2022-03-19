@@ -1,7 +1,13 @@
 .cabecalho {
-;
+display: flex;
+justify-content: center;
 }
-.cabecalho__imagem {
-    height: 60px;
-    width: 55px;
-}
+    .cabecalho__imagem {
+        height: 40px;
+        width: 40px;
+    }
+    .cabecalho__titulo {
+        font-size: 20px;
+        font-weight: 100;
+        margin-left: 10px;
+    }
