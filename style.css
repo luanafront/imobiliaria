@@ -35,10 +35,11 @@ justify-content: center;
                 }
                 .opcao__entrar {
                     background-color:var(--cor-branco-padrao);
-                    border:10px, var(--cor-azul-escuro);
+                    border:1px solid var(--cor-azul-escuro);
                     color: var(--cor-azul-escuro);
                     height: 20px;
                     width: 110px;
+                    border-radius: 5px;  
                 }
                 .opcao__cadatrar {
                     background-color: var(--cor-azul-escuro);
