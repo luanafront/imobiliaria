@@ -78,4 +78,9 @@ justify-content: center;
                 margin: 2px 4px 5px 34px;
                 font-size: 17px;
             }
+    .principal__botoes {
+        display: flex;
+        justify-content: space-around;
+        color: var(--cor-azul-escuro);
+    }
         
