@@ -97,6 +97,7 @@ justify-content: center;
         .alugar__apartamento--opcoes {
             display: flex;
             overflow: scroll;
+            padding: 10px;
         }
             .apartamentos__opcao {
                 list-style:none;
@@ -121,6 +122,38 @@ justify-content: center;
                     width: auto;
                     text-align: center;
                 }
+    .alugar__casa {}
+            .alugar__casa--titulo {
+                margin: 5px 0 10px 20px;
+            }
+            .alugar__casa--opcoes {
+                display: flex;
+                overflow: scroll;
+                padding: 10px;
+            }
+                .casa__opcao {
+                    list-style:none;
+                    margin: 0 10px 5px 10px;  
+                }
+                    .casa__opcao__imagem {
+                        height: 183px;
+                        width: 199px;
+                    }
+                    .casa__opcao--informacao {
+                        font-size: 20px;
+                        margin: 2px 0 5px 0;;
+                    }
+                    .casa__opcao--texto {
+                        margin: 0;
+                    }
+                    .casa__opcao--botao {
+                        margin: 5px 20px 0 20px;
+                        border:1px solid var(--cor-azul-escuro);
+                        border-radius: 5px;
+                        color: var(--cor-azul-escuro);
+                        width: auto;
+                        text-align: center;
+                    }
 
 
 
