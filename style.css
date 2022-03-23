@@ -71,20 +71,42 @@ justify-content: center;
             top: 0;
         }
             .principal__capa--texto1 {
-                margin: 25px 5px 0 9px;
-                font-size: 20px;
+                margin: 29px 5px 0 10px;
+                font-size: 21px;
                 font-weight: 600;
-                font-family: 'Libre Baskerville', serif;                
+                font-family: 'Poppins', sans-serif;               
             }
             .principal__capa--texto2 {
                 margin: 2px 4px 5px 34px;
                 font-size: 17px;
+                font-family: 'Libre Baskerville', serif; 
+                
             }
     .principal__botoes {
         display: flex;
         justify-content: space-around;
         color: var(--cor-azul-escuro);
     }
+    .principal__pesquisar{
+        height: 61px;
+        display: flex;
+    }
+        .pesquisar__titulo{
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            margin-left: 10px;
+            font-weight: 600;
+        }
+        .pesquisar__texto {
+            height: 34px;
+            width: 283px;
+            border-radius: 20px;
+            border: 0;
+            background-color: var(--cor-fundo-comprar);
+            text-align: left ;
+            padding-left: 15px;
+            margin:15px;
+        }
 .principal__alugar {}
     .principal__alugar--titulo {
         display: flex;
