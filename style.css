@@ -55,7 +55,7 @@ justify-content: center;
         opacity: 0;
     }
     .botoes {
-        animation: aparecer 1s normal 300ms forwards;
+        animation: aparecer 1s normal 500ms forwards;
         opacity: 0;
     }
         .botoes__opcoes {
@@ -90,7 +90,7 @@ justify-content: center;
 }
     .principal__capa { 
         position: relative; 
-        animation: aparecer 1s normal 500ms forwards;
+        animation: aparecer 1s normal 900ms forwards;
         opacity: 0;
     }
         .principal__capa--imagem {
@@ -117,13 +117,13 @@ justify-content: center;
         display: flex;
         justify-content: space-around;
         color: var(--cor-azul-escuro);
-        animation: aparecer 1s normal 700ms forwards;
+        animation: aparecer 1s normal 1300ms forwards;
         opacity: 0;
     }
     .principal__pesquisar{
         height: 61px;
         display: flex;
-        animation: aparecer 1s normal 900ms forwards;
+        animation: aparecer 1s normal 1500ms forwards;
         opacity: 0;
     }
         .pesquisar__texto {
@@ -148,21 +148,21 @@ justify-content: center;
         justify-content: center;
         font-size: 20px;
         font-family: 'Poppins', sans-serif;
-        animation: aparecer 1s normal 1100ms forwards;
+        animation: aparecer 1s normal 1600ms forwards;
         opacity: 0;
     }
     .alugar__apartamento {}
         .alugar__apartamento--titulo {
             margin: 5px 0 10px 20px;
             font-family: 'Poppins', sans-serif;
-            animation: aparecer 1s normal 1200ms forwards;
+            animation: aparecer 1s normal 1700ms forwards;
             opacity: 0;
         }
         .alugar__apartamento--opcoes {
             display: flex;
             overflow: scroll;
             padding: 10px;
-            animation: aparecer 1s normal 1400ms forwards;
+            animation: aparecer 1s normal 1800ms forwards;
             opacity: 0;
         }
             .apartamentos__opcao {
@@ -192,14 +192,14 @@ justify-content: center;
             .alugar__casa--titulo {
                 margin: 5px 0 10px 20px;
                 font-family: 'Poppins', sans-serif;
-                animation: aparecer 1s normal 1500ms forwards;
+                animation: aparecer 1s normal 1900ms forwards;
                 opacity: 0;
             }
             .alugar__casa--opcoes {
                 display: flex;
                 overflow: scroll;
                 padding: 10px;
-                animation: aparecer 1s normal 1700ms forwards;
+                animation: aparecer 1s normal 2000ms forwards;
                 opacity: 0;
             }
                 .casa__opcao {
@@ -234,21 +234,21 @@ justify-content: center;
         justify-content: center;
         font-size: 20px;
         font-family: 'Poppins', sans-serif;
-        animation: aparecer 1s normal 1900ms forwards;
+        animation: aparecer 1s normal 2100ms forwards;
         opacity: 0;
     }
     .comprar__apartamento {}
         .comprar__apartamento--titulo {
             margin: 5px 0 10px 20px;
             font-family: 'Poppins', sans-serif;
-            animation: aparecer 1s normal 2000ms forwards;
+            animation: aparecer 1s normal 2200ms forwards;
             opacity: 0;
         }
         .comprar__apartamento--opcoes {
             display: flex;
             overflow: scroll;
             padding: 10px;
-            animation: aparecer 1s normal 2200ms forwards;
+            animation: aparecer 1s normal 2300ms forwards;
             opacity: 0;
         }
             .apartamentos__opcao {
@@ -279,7 +279,7 @@ justify-content: center;
             .comprar__casa--titulo {
                 margin: 5px 0 10px 20px;
                 font-family: 'Poppins', sans-serif;
-                animation: aparecer 1s normal 2300ms forwards;
+                animation: aparecer 1s normal 2400ms forwards;
                 opacity: 0;
             }
             .comprar__casa--opcoes {
