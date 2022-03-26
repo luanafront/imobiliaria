@@ -267,7 +267,7 @@ justify-content: center;
                     margin: 0;
                 }
                 .apartamentos__opcao--botao {
-                    margin: 5px 20px 0 20px;
+                    margin: 5px 21px 0 20px;
                     border:1px solid var(--cor-branco-padrao);
                     border-radius: 5px;
                     color: var(--cor-fundo-comprar);
