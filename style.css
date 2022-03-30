@@ -247,7 +247,7 @@ justify-content: center;
         .comprar__apartamento--opcoes {
             display: flex;
             overflow: scroll;
-            padding: 10px;
+            padding: 11px;
             animation: aparecer 1s normal 2300ms forwards;
             opacity: 0;
         }
