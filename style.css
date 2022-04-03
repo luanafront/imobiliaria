@@ -36,13 +36,13 @@ body {
 }
 .cabecalho{}
 .cabecalho__principal {
-display: flex;
-justify-content: center;
-}
+    display: flex;
+    justify-content: center;
+ }
     .cabecalho__imagem {
         margin-top: 5px;
-        height: 40px;
-        width: 40px;
+        height: 41px;
+        width: 41px;
         animation: aparecer 1s normal 100ms forwards;
         opacity: 0;
     }
