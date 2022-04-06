@@ -92,6 +92,7 @@ body {
         position: relative; 
         animation: aparecer 1s normal 900ms forwards;
         opacity: 0;
+        
     }
         .principal__capa--imagem {
             width: 100vw;
@@ -438,6 +439,45 @@ body {
         margin-left: 10px;
         font-family: 'Poppins', sans-serif;
     }
-    
-   
-          
+@media(min-width:800px) {
+.cabecalho{}        
+    .botoes__opcoes {
+        justify-content: space-evenly;
+    }
+    .principal__capa {
+        width: 90vw;
+        margin: 0 auto;
+    }
+        .principal__capa--imagem {
+            width: 90vw;
+            height: 467px;
+            margin: 0 auto;
+            display: block;
+        }
+            .principal__capa--texto1 {
+                margin: 40px 5px 0 50px;
+                font-size: 30px;
+                font-weight: 400;              
+            }
+            .principal__capa--texto2 {
+                margin: 2px 4px 5px 60px;
+                font-size: 18px;
+            }
+            .principal__anuncio--imagem {
+                width: 70vw;
+                height: 250px;
+                margin: 0 auto;
+                display: block;
+            }
+            .principal__anuncio--titulo{
+                font-size: 20px;
+            }
+            .principal__anuncio--opcoes{
+                justify-content: space-evenly;
+            }
+            .principal__pesquisar{
+                width: 50vw;
+                margin: 0 auto;
+                
+            }
+}
